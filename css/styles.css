@@ -803,6 +803,7 @@ label {
   color: var(--light-slate);
   display: block;
   margin-bottom: 4px;
+  width: 360px;
 }
 
 .modal-textarea {
@@ -826,8 +827,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  width: 360px;
-  height: 120px;
+  width: 100%;
   margin-bottom: 16px
 
 }
@@ -853,11 +853,11 @@ label {
 
 
 .input-container input:focus {
-  border-color: var(--iris);
-
+ border-color: var(--iris);
 }
-
-
+.modal-textarea:focus {
+  border-color: #4D5AE5;
+}
 
 
 .input-container input:focus+.icon-truba {
@@ -871,7 +871,6 @@ label {
 .input-container input:focus+.icon-brief {
   fill: var(--iris);
 }
-
 
 /*-------------------------------------------Кнопка-------------------------- */
 
@@ -900,9 +899,6 @@ button.send-button {
   letter-spacing: 0.04em;
   color: var(--light-slate);
 }
-
-/*------------------------- ACHTUNG   -------------------------*/
-.checkbox-input {}
 
 /*------------------------- ACHTUNG   -------------------------*/
 
