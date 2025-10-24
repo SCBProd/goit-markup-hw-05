@@ -828,7 +828,7 @@ label {
   flex-direction: column;
   gap: 4px;
   width: 100%;
- margin-bottom: 24px;
+  margin-bottom: 24px;
 
 }
 
@@ -868,6 +868,10 @@ label {
 
 .input-container input:focus+.icon-brief {
   fill: var(--iris);
+}
+
+.modal-input-email {
+  margin-bottom: 16px
 }
 
 /*-------------------------------------------Кнопка-------------------------- */
