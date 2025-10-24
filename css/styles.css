@@ -840,9 +840,7 @@ label {
   width: 360px;
 }
 
-.icon-truba,
-.icon-man,
-.icon-brief {
+.icon-truba {
   position: absolute;
   left: 16px;
   top: 50%;
