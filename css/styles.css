@@ -633,7 +633,7 @@ label {
   line-height: 1.16667;
     letter-spacing: 0.04em;
 }
-legend {
+.legend {
   font-weight: 500;
     font-size: 16px;
   
@@ -673,6 +673,11 @@ legend {
   min-height: 584px;
 }
 .modal-form {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-form  fieldset {
   display: flex;
   align-items: center;
   flex-direction: column;
