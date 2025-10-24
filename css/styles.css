@@ -838,6 +838,7 @@ label {
   flex-direction: column;
   gap: 8px;
   width: 360px;
+  margin-bottom: 24px;
 }
 
 .icon-truba {
@@ -905,6 +906,8 @@ button.send-button {
 .checkbox-label {
   top: 50%;
 }
+
+
 
 .modal-input {
   width: 100%;
