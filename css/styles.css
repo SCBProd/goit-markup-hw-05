@@ -828,7 +828,7 @@ label {
   flex-direction: column;
   gap: 4px;
   width: 100%;
-  margin-bottom: 16px
+ margin-bottom: 24px;
 
 }
 
@@ -944,3 +944,7 @@ button.send-button {
   border: none;
   fill: var(--cloud);
 }
+.checkbox-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--iris);}
