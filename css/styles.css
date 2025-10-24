@@ -714,18 +714,18 @@ label {
   }
 
 .modal {
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-    width: 408px;
-    min-height: 584px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-    background: var(--dairy);
-    position: absolute;
-    transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
-}
+      border-radius: 4px;
+        width: 408px;
+        min-height: 584px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+        background: var(--dairy);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 72px 24px 24px 24px;
+      }
 .modal-form {
   display: flex;
     align-items: center;
@@ -783,11 +783,7 @@ label {
 
 
   .input-container {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    width: 360px;
-      height: 58px;
+          margin-bottom: 8px;
   }
     .input-svg-div {
       position: relative;
@@ -798,19 +794,14 @@ label {
         border-radius: 4px;
         
     }
-    .input-container input {
-      border: 1px solid var(--navy-blue-modal);
-        border-radius: 4px;
-        background-color: transparent;
-        width: 100%;
-        height: 40px;
-        
-        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        outline: transparent;
-        
-        
-        
-    }
+.modal-label {
+      font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: var(--light-slate);
+        display: block;
+        margin-bottom: 4px;
+}
   .modal-textarea {
       width: 100%;
         height: 120px;
@@ -851,19 +842,12 @@ label {
                 fill: var(--navy-blue);
         }
 
-        .input-container input:hover,
+        
         .input-container input:focus {
           border-color: var(--iris);
           
         }
-        .input-container label {
-          font-size: 12px;
-          line-height: 1.17;
-          letter-spacing: 0.04em;
-          color: var(--light-slate);
-          display: block;
-          margin-bottom: 4px;
-        }
+      
 
         
 
@@ -919,6 +903,16 @@ label {
           top: 50%;
         }
 
+        .modal-input {
+            width: 100%;
+            height: 40px;
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            border-radius: 4px;
+            background-color: transparent;
+            padding-left: 38px;
+            outline: transparent;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          }
 
         
         
